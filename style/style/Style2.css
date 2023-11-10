@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+.container-fluid {
+  background-color: #7fb5b4;
+}
+/* caja */
+.caja-productos {
+  margin: 10px;
+}
+.caja-principal {
+  margin-bottom: 20px;
+}
+/* productos */
+.caja-productos {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 60px 0px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  border: 0.5 solid#000;
+  border-radius: 20px;
+}
+.caja-imagen {
+  min-width: 200px;
+  flex: 350px;
+}
+.caja-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.caja-productos img:hover {
+  border: 2px solid #000;
+  transform: scale(1.8s);
+  transition: 0.2s ease-in-out;
+}
+.caja-productos img:hover {
+  opacity: 1;
+}
+/* titulos*/
+.titulo {
+  margin: 20px;
+  font-size: 32px;
+  padding: 1px;
+  text-align: center;
+  font-weight: 600;
+}
+/* footer */
+.pie_pagina{
+  width: 100%;
+  background-color: #FFC0CB;
+}
+.pie_pagina .grupo-1{
+width: 100%;
+max-width: 1200px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 50px;
+padding: 45px 0px;
+}
+.pie_pagina .grupo-1 .figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie_pagina .grupo-1 .figure img{
+  height: 50px;
+}
+.grupo-2{
+  background-color: #ff869a;
+  padding-left: 100%;
+  padding-right: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.promo{
+  margin: auto;
+  padding: 0%;
+  width: 1336px;
+  height: 0%;
+  margin-top: 160px;
+  margin-bottom: 200px;
+}
+.mapa{
+  justify-content: center;
+  margin: 30px;
+  display: flex;
+}
+.box p{
+  list-style-type: none;
+  color: #000;
+}
+.box p{
+  margin-bottom: 10px;
+  margin-top: 0%;
+}
+.box p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.text {
+  color: #000;
+}
+.card {
+  color: #000;
+}
+.card-footer {
+  color: #000;
+}
+.text-mude {
+  color: #000;
+}
+.card-body {
+  color: #000000;
+}
+.card-header{
+  color: #000;
+  text-align: center;
+}
